@@ -22,12 +22,11 @@ export default {
       type: 'string',
       options: {
         list: [
-          { title: 'Unidades (Bebidas)', value: 'unidades' },
-          { title: 'Kilogramos (Carne/Pan)', value: 'kg' },
-          { title: 'Litros', value: 'litros' },
+          { title: '📦 Unidades / Gramos / ml (Enteros)', value: 'unidades' },
           { title: 'Paca x 30', value: 'paca30' }
         ]
-      }
+      },
+      initialValue: 'unidades'
     },
     {
       name: 'stockMinimo',
